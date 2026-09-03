@@ -121,3 +121,20 @@ sudo yum update
 sudo dnf update -y
 sudo dnf config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
 sudo dnf install -y terraform
+git init
+git status
+git config --global init.defaultBranch main
+git remote add origin https://github.com/rojalatha49-bit/teraform-jenkins.git
+git remote -v
+git add .
+git commit -m "Add Terraform template"
+git branch -M main
+git push -u origin main
+git remote set-url origin https://github.com/rojalatha49-bit/teraform-jenkins.git
+git push -u origin main
+git remote -v
+git push -u origin main
+git remote add origin https://github.com/rojalatha49-bit/terraform-jenkins.git
+git push -u origin main
+git remote set-url origin https://github.com/rojalatha49-bit/terraform-jenkins.git
+git push -u origin main
